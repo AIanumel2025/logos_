@@ -17,7 +17,7 @@ This repository applies research on transformer fine-tuning for Twitter/X sentim
 
 - **Transformer-powered multi-class sentiment analysis** (Positive, Negative, Neutral)
 - **Comparative benchmarking** across multiple transformer models
-- **Confidence score visualization** with explainability
+- **Confidence score visualisation** with explainability
 - **Batch tweet analysis** and interactive dashboard
 - **Explainable NLP pipeline** (attention & prediction insights)
 - **Public discourse monitoring & social listening**
@@ -31,9 +31,9 @@ This repository applies research on transformer fine-tuning for Twitter/X sentim
 |--------------------|-----------------------------|-----------------------------------|
 | **BERT**           | General-purpose baseline    | Strong contextual understanding   |
 | **DistilBERT**     | Lightweight baseline        | Fast & computationally efficient  |
-| **Twitter-RoBERTa**| Domain-specific (Twitter)   | Best performance on social data   |
+| **Twitter-RoBERTa**| Domain-specific (Twitter)   | Best performance on twitter data   |
 
-All models were **fine-tuned on the TweetEval sentiment dataset**.
+All models are **fine-tuned on the TweetEval sentiment dataset**.
 
 **Best Performer**: **Twitter-RoBERTa** – achieves the strongest balanced results across sentiment classes.
 
@@ -94,19 +94,27 @@ Logos_X_ai/
 ```
 ## 🚀 Installation & Setup
 
-# 1. Clone the repository
+1. Clone the repository
+```
 git clone https://github.com/yourusername/Logos_X_ai.git
 cd Logos_X_ai
+```
 
-# 2. Create virtual environment
+2. Create virtual environment
+```
 python -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
+```
 
-# 3. Install dependencies
+3. Install dependencies
+```
 pip install -r requirements.txt
+```
 
-# 4. Run the application
+4. Run the application
+```
 streamlit run app/main.py
+```
 
 ## 🛠️ Tech Stack
 
