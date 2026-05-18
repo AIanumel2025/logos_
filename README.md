@@ -7,7 +7,7 @@
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E.svg?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-**Logos_X_ai** is a transformer-based sentiment intelligence system designed to analyse public discourse on social media with state-of-the-art NLP models. It investigates how **domain-specific transformer architectures** outperform general-purpose models when handling noisy, contextual, and informal language found in tweets, hashtags, slang, emojis, and abbreviations.
+**Logos_X_ai** is a transformer-based sentiment intelligence system designed to analyse public discourse on social media with state-of-the-art NLP models. It investigates how **domain-specific transformer architectures** compare against general-purpose models when handling noisy, contextual, and informal language found in tweets, hashtags, slang, emojis, and abbreviations.
 
 This repository applies research on transformer fine-tuning for Twitter/X sentiment classification and delivers it as a production-ready AI application.
 
@@ -118,12 +118,12 @@ streamlit run app/main.py
 
 ## 🛠️ Tech Stack
 
-Language: Python
-ML Framework: PyTorch + Hugging Face Transformers
-Models: BERT, DistilBERT, Twitter-RoBERTa
-Frontend: Streamlit
-Data: Pandas, Scikit-learn
-Visualisation: Matplotlib + Plotly
+1. Language: Python
+2. ML Framework: PyTorch + Hugging Face Transformers
+3. Models: BERT, DistilBERT, Twitter-RoBERTa
+3. Frontend: Streamlit
+4. Data: Pandas, Scikit-learn
+5. Visualisation: Matplotlib + Plotly
 
 
 ## 📄 License
