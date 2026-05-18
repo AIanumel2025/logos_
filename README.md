@@ -1,2 +1,122 @@
 # Logos_X_ai
-An AI powered sentiment intelligence platform, which leverages advanced transformer models (BERT, DistilBERT and Twitter-RoBERTa) to analyse public discourse, predict political risk and track brand perception
+
+**AI-Powered Social Sentiment Intelligence Platform**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E.svg?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+**Logos_X_ai** is a transformer-based sentiment intelligence system designed to analyse public discourse on social media with state-of-the-art NLP models. It investigates how **domain-specific transformer architectures** outperform general-purpose models when handling noisy, contextual, and informal language found in tweets, hashtags, slang, emojis, and abbreviations.
+
+This repository applies research on transformer fine-tuning for Twitter/X sentiment classification and delivers it as a production-ready AI application.
+
+---
+
+## ✨ Features
+
+- **Transformer-powered multi-class sentiment analysis** (Positive, Negative, Neutral)
+- **Comparative benchmarking** across multiple transformer models
+- **Confidence score visualization** with explainability
+- **Batch tweet analysis** and interactive dashboard
+- **Explainable NLP pipeline** (attention & prediction insights)
+- **Public discourse monitoring & social listening**
+- **Professional Streamlit dashboard**
+
+---
+
+## 🧠 Models Evaluated
+
+| Model              | Type                        | Key Advantage                     |
+|--------------------|-----------------------------|-----------------------------------|
+| **BERT**           | General-purpose baseline    | Strong contextual understanding   |
+| **DistilBERT**     | Lightweight baseline        | Fast & computationally efficient  |
+| **Twitter-RoBERTa**| Domain-specific (Twitter)   | Best performance on social data   |
+
+All models were **fine-tuned on the TweetEval sentiment dataset**.
+
+**Best Performer**: **Twitter-RoBERTa** – achieves the strongest balanced results across sentiment classes.
+
+---
+
+## 📊 Comparative Results
+
+| Model              | Accuracy | Macro F1 | Macro Recall |
+|--------------------|----------|----------|--------------|
+| **BERT**           | 0.69     | 0.69     | 0.71         |
+| **Twitter-RoBERTa**| **0.70** | **0.70** | **0.73**     |
+| **DistilBERT**     | 0.68     | 0.68     | 0.69         |
+
+---
+
+## 🎯 Impact
+
+Social media contains vast amounts of emotionally charged, noisy, and context-rich public opinion. Accurate sentiment understanding enables:
+
+- **Political risk assessment**
+- **Brand intelligence & reputation monitoring**
+- **Public opinion tracking**
+- **Market research**
+- **Trust & Safety analytics**
+- **Social listening systems**
+
+This project explores how specialised transformers can better model collective human sentiment in ambiguous linguistic environments.
+
+---
+
+## 🏗️ Project Architecture
+
+```mermaid
+flowchart TD
+    A[User Input / Tweets] --> B[Preprocessing Pipeline]
+    B --> C[Tokenizer]
+    C --> D[Transformer Model]
+    D --> E[Sentiment Prediction]
+    E --> F[Confidence Scores + Explanations]
+    F --> G[Interactive Dashboard]
+```
+
+## 📁 Repo Structure
+```
+Logos_X_ai/
+├── app/
+│   ├── main.py                 # Streamlit dashboard
+│   ├── inference.py            # Model inference logic
+│   ├── preprocessing.py        # Text cleaning & preparation
+│   └── visualisations.py       # Charts and explainability
+├── models/                     # Fine-tuned model weights
+├── notebooks/                  # Research & experimentation
+├── data/                       # Datasets & processed files
+├── assets/                     # Images, logos, screenshots
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+## 🚀 Installation & Setup
+
+# 1. Clone the repository
+git clone https://github.com/yourusername/Logos_X_ai.git
+cd Logos_X_ai
+
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate    # Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the application
+streamlit run app/main.py
+
+## 🛠️ Tech Stack
+
+Language: Python
+ML Framework: PyTorch + Hugging Face Transformers
+Models: BERT, DistilBERT, Twitter-RoBERTa
+Frontend: Streamlit
+Data: Pandas, Scikit-learn
+Visualisation: Matplotlib + Plotly
+
+
+## 📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
