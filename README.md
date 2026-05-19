@@ -1,6 +1,6 @@
 # Logos_X_ai
 
-**AI-Powered Social Sentiment Intelligence Platform**
+**An AI-Powered Social Sentiment Intelligence System**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
@@ -9,7 +9,7 @@
 
 **Logos_X_ai** is a transformer-based sentiment intelligence system designed to analyse public discourse on social media with state-of-the-art NLP models. It investigates how **domain-specific transformer architectures** compare against general-purpose models when handling noisy, contextual, and informal language found in tweets, hashtags, slang, emojis, and abbreviations.
 
-This repository applies research on transformer fine-tuning for Twitter/X sentiment classification and delivers it as a production-ready AI application.
+This repository applies research on transformer fine-tuning for Twitter/X sentiment classification and selects the most potent transformer model to power this production-ready AI application.
 
 ---
 
@@ -51,7 +51,7 @@ All models are **fine-tuned on the TweetEval sentiment dataset**.
 
 ## 🎯 Impact
 
-Social media contains vast amounts of emotionally charged, noisy, and context-rich public opinion. Accurate sentiment understanding enables:
+Social media contains vast amounts of emotionally charged, noisy, and context-rich public opinion. Accurate sentiment understanding using this system provides the following services:
 
 - **Political risk assessment**
 - **Brand intelligence & reputation monitoring**
