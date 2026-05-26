@@ -1,4 +1,4 @@
-# Logos_X_ai
+# Logos_
 
 **An AI-Powered Social Sentiment Intelligence System**
 
@@ -78,7 +78,7 @@ flowchart TD
 
 ## 📁 Repo Structure
 ```
-Logos_X_ai/
+Logos_/
 ├── app/
 │   ├── main.py                 # Streamlit dashboard
 │   ├── inference.py            # Model inference logic
