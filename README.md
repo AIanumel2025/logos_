@@ -1,4 +1,4 @@
-# Logos_
+# logos_
 
 **An AI-Powered Social Sentiment Intelligence System**
 
@@ -7,9 +7,9 @@
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E.svg?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-**Logos_** is a transformer-based sentiment intelligence system designed to analyse public discourse on social media with state-of-the-art NLP models. It investigates how **domain-specific transformer architectures** compare against general-purpose models when handling noisy, contextual, and informal language found in tweets, hashtags, slang, emojis, and abbreviations.
+**logos_** is a transformer-based sentiment intelligence system designed to analyse public discourse on social media with state-of-the-art NLP models. It investigates how **domain-specific transformer architectures** compare against general-purpose models when handling noisy, contextual, and informal language found in tweets, hashtags, slang, emojis, and abbreviations.
 
-This repository applies research on transformer fine-tuning for Twitter/X sentiment classification and selects the most potent transformer model to power this production-ready AI application.
+This project applies research on transformer fine-tuning for Twitter/X sentiment classification and selects the most potent transformer model to power this production-ready AI application.
 
 ---
 
@@ -51,7 +51,7 @@ All models are **fine-tuned on the TweetEval sentiment dataset**.
 
 ## 🎯 Impact
 
-Social media contains vast amounts of emotionally charged, noisy, and context-rich public opinion. Accurate sentiment understanding using this system provides the following services:
+Social media contains vast amounts of sentimental, noisy, and context-rich public opinion. Accurate sentiment understanding using this system provides the following services:
 
 - **Political risk assessment**
 - **Brand intelligence & reputation monitoring**
@@ -96,8 +96,8 @@ Logos_/
 
 1. Clone the repository
 ```
-git clone https://github.com/yourusername/Logos_X_ai.git
-cd Logos_X_ai
+git clone https://github.com/yourusername/logos_.git
+cd logos_
 ```
 
 2. Create virtual environment
